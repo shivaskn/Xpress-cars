@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./Assest/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.card-outer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin: 1rem;
+}
+
+.card-start-container {
+  width: 352px;
+  height: 460px;
+  background: #fff;
+  box-shadow: 1px 1px 3px 3px grey;
+  overflow: hidden;
+}
+.card-img-container img {
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+.card-contents-container p {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.service-button {
+  height: 38px;
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: #fcd810;
+  justify-content: center;
+  transition: 0.4s;
+}
+.service-button:hover {
+  background: orange;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-contents-container {
+  padding: 1rem;
+}
+
+span {
+  color: red;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.car-wash-main {
+  display: flex;
+  overflow: hidden;
+  background: #f8f9f9;
+}
+.wash-contents {
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: start;
+  font-weight: 600;
+}
+.wash-contents h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.wash-contents p {
+  padding-bottom: 1.5rem;
+}
+
+.wash-img-con img {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ent-con-eas {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.ent-con-eas p {
+  padding-bottom: 1.5rem;
+}
+.ent-con-eas h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.line {
+  margin-top: 2rem;
+  border-left: 3px solid #fcd810;
+  height: 400px;
+}
+.card-img-container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.card-img-container img {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.header {
+  /*position: relative;*/
+  top: 0;
+  left: 0;
+  /*width: 100%;*/
+  padding: 30px 8%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin: 0;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+
+.Nav-bar a:hover {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+.active {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.login-signup button {
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.login-signup button:hover {
+  background-color: orange;
+  color: #111;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.designer {
+  opacity: 0.7;
+  color: #e6e9f0;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

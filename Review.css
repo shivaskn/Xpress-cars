@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+  background: url(./Assest/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Header content */
+
+header {
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+
+.Nav-bar a:hover {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.login-signup button {
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.login-signup button:hover {
+  background-color: orange;
+  color: #111;
+  border: 1px solid black;
+}
+
+.heading {
+  position: relative;
+  left: 40%;
+  top: 200px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  background-color: transparent;
+}
+
+.heading span {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.heading h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.Review-container-2 {
+  display: grid;
+  grid-template-columns: 200px, 200px, 200px;
+  margin: 20px;
+  width: 98%;
+  position: relative;
+  bottom: 20px;
+  height: 530px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.rev-img {
+  width: 70px;
+  height: 70px;
+}
+
+.rev-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid orange;
+}
+
+.Review-container-2 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(122, 122, 122);
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.Review-container-2 .box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.Review-container-2 .box p {
+  font-style: italic;
+}
+
+.Review-container-2 .box .star .bx {
+  color: black;
+}
+
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+/* Hover affect on social media icon */
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

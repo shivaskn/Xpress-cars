@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./Assest/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  background-color: black;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+
+.Nav-bar a:hover {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.login-signup button {
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.login-signup button:hover {
+  background-color: orange;
+  color: #111;
+  border: 1px solid black;
+}
+
+.start-section marquee {
+  background-color: rgb(187, 185, 185);
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.start-section .h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.portel-container {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 150px;
+  margin-top: 200px;
+}
+.rental-portal {
+  height: 350px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+  border-radius: 20px;
+}
+
+.rental-portal img {
+  position: relative;
+  left: 153px;
+  top: 20px;
+  height: 100px;
+}
+.Service-portal {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  height: 350px;
+  border-radius: 20px;
+}
+
+.Service-portal img {
+  position: relative;
+  left: 190px;
+  top: 30px;
+  height: 110px;
+}
+
+.service-button {
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  background: #fcd810;
+  margin: 2rem;
+  margin-left: 2rem;
+}
+.service-button:hover {
+  background: orange;
+  color: #fff;
+  cursor: pointer;
+}
+/*
+ 
+  h1 {
+    font-size: 5rem;
+    font-weight: 1000;
+  }
+  span {
+    color: #fcd810;
+  }
+  */
+h2 {
+  padding-bottom: 4rem;
+  padding: 4rem;
+  font-size: 1.5rem;
+}
+.butt-ser {
+  padding-left: 3rem;
+}
+
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+
+/* Hover affect on social media icon */
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  color: rgb(193, 192, 192);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+  background: url(./Assest/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* header section */
+
+header {
+  background-color: black;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+
+.Nav-bar a:hover {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.login-signup button {
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.login-signup button:hover {
+  background-color: orange;
+  color: #111;
+  border: 1px solid black;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Main content */
+
+.title {
+  position: relative;
+  left: 600px;
+  top: 200px;
+  width: 800px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.title h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.content-1 {
+  position: relative;
+  top: 40%;
+  left: 53%;
+  width: 800px;
+  height: 300px;
+  background-color: transparent;
+}
+
+.content-1 h4 {
+  font-size: 20px;
+  padding: 0px 0px 5px 0px;
+}
+
+.content-1 p {
+  font-size: 25px;
+}
+
+.bmw img {
+  position: relative;
+  left: 5%;
+  bottom: 50px;
+  height: 450px;
+  animation-name: slideLeft;
+  animation-duration: 0.9s;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateY(300%);
+  }
+}
+
+.content-2 {
+  position: relative;
+  top: 200px;
+  left: 7%;
+  width: 800px;
+  height: 300px;
+  background-color: transparent;
+}
+
+.content-2 h4 {
+  font-size: 20px;
+  padding: 0px 0px 5px 0px;
+}
+
+.content-2 p {
+  font-size: 25px;
+}
+
+.land img {
+  position: relative;
+  left: 53%;
+  bottom: 300px;
+  height: 600px;
+}
+
+.content-3 {
+  position: relative;
+  bottom: 9%;
+  left: 53%;
+  width: 800px;
+  height: 300px;
+  background-color: transparent;
+}
+
+.content-3 h4 {
+  font-size: 20px;
+  padding: 0px 0px 5px 0px;
+}
+
+.content-3 p {
+  font-size: 25px;
+}
+
+.jack img {
+  position: relative;
+  bottom: 540px;
+  left: 5%;
+  height: 560px;
+}
+
+.content-4 {
+  position: relative;
+  left: 9%;
+  bottom: 35%;
+  width: 800px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.content-4 h1 {
+  font-size: 50px;
+  padding: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+.content-4 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mech-1 {
+  height: 100px;
+  position: relative;
+  bottom: 55%;
+  left: 60%;
+  margin: 0px 0px 20px 0px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Footer section */
+
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

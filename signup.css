@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(./Assest/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: all 0.4s linear;
+  overflow: hidden;
+}
+header {
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background: transparent;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.wrapper {
+  width: 420px;
+  position: relative;
+  top: 200px;
+  left: 65%;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  color: #000000;
+  border-radius: 12px;
+  padding: 30px 40px;
+  transition: 0.4s;
+  z-index: 1000;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: #000000;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input {
+  accent-color: #ffffff;
+  margin-right: 3px;
+}
+.remember-forgot a {
+  color: #000000;
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #000000;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fffdfd;
+  font-weight: 600;
+}
+
+.wrapper .btn:hover {
+  background-color: orange;
+  color: #000000;
+  transition: all 0.5s ease;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-link p a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.img-container {
+  position: relative;
+  width: 700px;
+  height: 800px;
+  background-color: transparent;
+  bottom: 40%;
+  left: 11%;
+  transition: 0.4s ease;
+}
+.img-container img {
+  height: 450px;
+  position: relative;
+  bottom: 120px;
+  z-index: 10000;
+  animation-name: slideright;
+  animation-duration: 1s;
+  transition: all 1s ease;
+}
+@keyframes slideright {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+.title {
+  position: relative;
+  left: 90px;
+  bottom: 355px;
+  height: 300px;
+  width: 1100px;
+  padding: 20px;
+  background-color: transparent;
+  z-index: 100;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: 900;
+  filter: drop-shadow(3px 3px 3px rgb(68, 68, 68));
+}
+
+.title p {
+  position: relative;
+  left: 15%;
+  font-size: 30px;
+  font-weight: 600;
+}

@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+  background: url(./Assest/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Header content */
+
+header {
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+
+.Nav-bar a:hover {
+  background-color: orange;
+  color: #111;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.login-signup button {
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 5px 15px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.login-signup button:hover {
+  background-color: orange;
+  color: #111;
+  border: 1px solid black;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Content section */
+
+.heading {
+  position: relative;
+  left: 38%;
+  top: 200px;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  background-color: transparent;
+}
+
+.heading span {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 22px;
+}
+
+.heading h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.step-1 {
+  position: relative;
+  top: 150px;
+  left: 5%;
+  width: 515px;
+  padding: 5px;
+  height: 320px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.step-1 h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 5px;
+}
+
+.step-1 img {
+  height: 100px;
+  float: left;
+}
+
+.step-1 p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 4px;
+}
+
+.step-2 {
+  position: relative;
+  bottom: 170px;
+  left: 37%;
+  width: 515px;
+  padding: 10px;
+  height: 320px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.step-2 h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 5px;
+}
+
+.step-2 img {
+  height: 70px;
+  float: left;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.step-2 p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 4px;
+}
+
+.step-3 {
+  position: relative;
+  bottom: 490px;
+  left: 69%;
+  width: 515px;
+  padding: 10px;
+  height: 320px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.step-3 h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 5px;
+}
+
+.step-3 img {
+  height: 70px;
+  float: left;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.step-3 p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 4px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Form container */
+
+.form-container {
+  position: relative;
+  bottom: 300px;
+  margin: auto;
+  background: url(./Assest/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  padding: 20px;
+  border-radius: 50px;
+  filter: drop-shadow(3px 3px 3px black);
+}
+.form-container h2 {
+  margin-left: 80px;
+  text-align: center;
+}
+.form-container form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  bottom: 4rem;
+  left: 150px;
+  padding: 20px;
+  border-radius: 0.5rem;
+  width: 90%;
+  margin-left: 60px;
+}
+.input-box {
+  /* flex: 1 1 7rem; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+}
+.input-box label {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.input-box label .bx {
+  margin-right: 10px;
+}
+.input-box select,
+input {
+  padding: 7px;
+  outline: none;
+  border: none;
+  background: #eeeff1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 90%;
+}
+.form-container form .btn {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 0.5rem;
+  background: #474fa0;
+  transition: 0.4s ease;
+  color: #fff;
+  font-size: 1rem;
+}
+.form-container form .btn:hover {
+  background-color: #ffac38;
+  color: #111;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Footer section */
+
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  opacity: 0, 9;
+}
+
+/* Hover affect on social media icon */
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+/* Ending title and image */
+.Ending-img img {
+  position: relative;
+  bottom: 300px;
+  left: 22%;
+  height: 400px;
+}
+
+.step-4 {
+  position: relative;
+  bottom: 30px;
+  left: 10%;
+  width: 800px;
+  height: 300px;
+  text-align: center;
+}
+
+.step-4 h2 {
+  font-size: 40px;
+  text-align: start;
+  text-decoration: underline;
+}
+
+.step-4 p {
+  text-align: justify;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.ending-img {
+  position: relative;
+  left: 55%;
+  bottom: 390px;
+  height: 300px;
+}
+.ending-img img {
+  height: 450px;
+}
